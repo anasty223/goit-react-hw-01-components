@@ -10,9 +10,9 @@ function Profile({avatar=defaultImage, username, tag, location, stats}) {
       alt="User avatar"
       className={s.avatar}
     />
-        <p className={s.name}>{username }Petra Marica</p>
-        <p className={s.tag}>{tag}@pmarica</p>
-     <p className={s.location}>{location}Salvador, Brasil</p>
+        <p className={s.name}>{username}Petra Marica</p>
+        <p className={s.tag}>{tag} @pmarica</p>
+     <p className={s.location}>{location} Salvador, Brasil</p>
   </div>
 
 <ul className={s.stats}>
@@ -39,7 +39,7 @@ Profile.propTypes = {
   avatar: PropTypes.string.isRequired,
    tag:PropTypes.string.isRequired,
 location:PropTypes.string.isRequired,
-stats:PropTypes.node,
+// stats:PropTypes.node,
 }
 
 // username — имя пользователя
