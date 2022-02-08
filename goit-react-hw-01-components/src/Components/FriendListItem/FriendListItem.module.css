@@ -1,0 +1,25 @@
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 5px 10px 5px;
+  width: 100%;
+  background-color: rgb(199, 198, 198);
+}
+
+.item:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.status {
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: 700;
+  margin-left: 10px;
+}
